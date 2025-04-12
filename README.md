@@ -12,14 +12,15 @@ Deployed Link: https://bookbuddy112.netlify.app/
 Project Setup Instructions
 ------
 1.Clone the repository or create a new project
+
  Create a new Next.js project
  npx create-next-app book-exchange-portal
  cd book-exchange-portal
 
- #Clone the repository:
- 
- git clone https://github.com/yourusername/bookbuddy.git
- cd bookbuddy
+ Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/bookbuddy.git
+   cd bookbuddy
 
 2.Install dependencies
 
