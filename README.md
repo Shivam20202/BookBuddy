@@ -40,37 +40,36 @@ yarn build
 
 
 bookbuddy/
-
-├── app/                      # App Router (Next.js 14)
-│   ├── auth/                 # Login & Register Pages
-│   ├── books/                # Book listing & management pages
-│   ├── dashboard/            # User-specific dashboard
-│   ├── profile/              # Profile redirect & handler
-│   ├── globals.css           # Global CSS styles
-│   ├── layout.tsx            # Root layout with theme, metadata
-│   └── page.tsx              # Homepage (hero section, intro)
+├── app/                       App Router (Next.js 14)
+│   ├── auth/                  Login & Register Pages
+│   ├── books/                 Book listing & management pages
+│   ├── dashboard/             User-specific dashboard
+│   ├── profile/               Profile redirect & handler
+│   ├── globals.css            Global CSS styles
+│   ├── layout.tsx             Root layout with theme, metadata
+│   └── page.tsx               Homepage (hero section, intro)
 │
-├── components/               # Reusable React components
-│   ├── ui/                   # Custom UI components (shadcn/ui)
-│   ├── navbar.tsx            # Navigation bar with links
-│   └── theme-provider.tsx    # Theme context and provider
+├── components/                Reusable React components
+│   ├── ui/                    Custom UI components (shadcn/ui)
+│   ├── navbar.tsx             Navigation bar with links
+│   └── theme-provider.tsx     Theme context and provider
 │
-├── hooks/                    # Custom React hooks
-│   └── useTheme.ts           # Hook for theme toggling
+├── hooks/                     Custom React hooks
+│   └── useTheme.ts            Hook for theme toggling
 │
-├── lib/                      # Utility and helper functions
-│   ├── auth.ts               # Auth role logic (demo-based)
-│   ├── data.ts               # Sample book data & logic
-│   ├── types.ts              # TypeScript types/interfaces
-│   └── utils.ts              # Utility functions
+├── lib/                       Utility and helper functions
+│   ├── auth.ts                Auth role logic (demo-based)
+│   ├── data.ts                Sample book data & logic
+│   ├── types.ts               TypeScript types/interfaces
+│   └── utils.ts               Utility functions
 │
-├── public/                   # Static assets (e.g. book covers)
-├── .gitignore                # Git ignored files
-├── next.config.mjs           # Next.js config file
-├── package.json              # Project metadata & dependencies
-├── postcss.config.js         # PostCSS config for Tailwind
-├── tailwind.config.ts        # Tailwind theme and settings
-└── tsconfig.json             # TypeScript compiler options
+├── public/                    Static assets (e.g. book covers)
+├── .gitignore                 Git ignored files
+├── next.config.mjs            Next.js config file
+├── package.json               Project metadata & dependencies
+├── postcss.config.js          PostCSS config for Tailwind
+├── tailwind.config.ts         Tailwind theme and settings
+└── tsconfig.json              TypeScript compiler options
 
 
 
