@@ -4,13 +4,13 @@ BookBuddy is a web application that connects book owners with book seekers, faci
 
 Deployed Link: https://bookbuddy112.netlify.app/
 
- #Prerequisites
-
+ Prerequisites
+ ------
 - Node.js 18.x or higher
 - npm or yarn
 
-#Project Setup Instructions
-
+Project Setup Instructions
+------
 1.Clone the repository or create a new project
  Create a new Next.js project
  npx create-next-app book-exchange-portal
@@ -67,7 +67,8 @@ yarn build
 You can access the application at [http://localhost:3000](http://localhost:3000) after starting the development server.
 
 
-#Project Structure
+Project Structure
+---------
 
 ```bash
 bookbuddy/
