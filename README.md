@@ -35,10 +35,37 @@ npm run build
  or
 yarn build
 
+## Features
+
+- User authentication (register, login, logout)
+- Role-based access (Book Owner, Book Seeker)
+- Book listing with book cover and browsing
+- Book management for owners
+- Search and filter functionality
+- Responsive design for all devices
+
+## Tech Stack
+
+- **Frontend Framework**: Next.js 14 (App Router)
+- **UI Components**: shadcn/ui
+- **Styling**: Tailwind CSS
+- **State Management**: React Hooks
+- **Data Storage**: Local Storage (in-memory for demo purposes)
+
+## Notes
+
+- The application uses client-side storage (localStorage) for data persistence
+- Sample books are automatically loaded when the application starts
+- Authentication is basic and for demonstration purposes only (no encryption)
+- The application is fully responsive and works on mobile devices
+
+  
+You can access the application at [http://localhost:3000](http://localhost:3000) after starting the development server.
+
 
 Project Structure
 
-
+```bash
 bookbuddy/
 ├── app/                      # App Router (Next.js 14)
 │   ├── auth/                 # Login & Register Pages
@@ -74,32 +101,9 @@ bookbuddy/
 
 
 
-## Features
-
-- User authentication (register, login, logout)
-- Role-based access (Book Owner, Book Seeker)
-- Book listing with book cover and browsing
-- Book management for owners
-- Search and filter functionality
-- Responsive design for all devices
-
-## Tech Stack
-
-- **Frontend Framework**: Next.js 14 (App Router)
-- **UI Components**: shadcn/ui
-- **Styling**: Tailwind CSS
-- **State Management**: React Hooks
-- **Data Storage**: Local Storage (in-memory for demo purposes)
-
-## Notes
-
-- The application uses client-side storage (localStorage) for data persistence
-- Sample books are automatically loaded when the application starts
-- Authentication is basic and for demonstration purposes only (no encryption)
-- The application is fully responsive and works on mobile devices
 
 
-You can access the application at [http://localhost:3000](http://localhost:3000) after starting the development server.
+
 
 
 
