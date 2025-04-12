@@ -40,6 +40,7 @@ yarn build
 
 
 bookbuddy/
+
 ├── app/                      # App Router (Next.js 14)
 │   ├── auth/                 # Login & Register Pages
 │   ├── books/                # Book listing & management pages
