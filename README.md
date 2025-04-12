@@ -21,6 +21,7 @@ Project Setup Instructions
    ```bash
    git clone https://github.com/yourusername/bookbuddy.git
    cd bookbuddy
+```
 
 2.Install dependencies
 
