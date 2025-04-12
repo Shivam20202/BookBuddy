@@ -106,13 +106,3 @@ bookbuddy/
 ├── postcss.config.js         # PostCSS config for Tailwind
 ├── tailwind.config.ts        # Tailwind theme and settings
 └── tsconfig.json             # TypeScript compiler options
-
-
-
-
-
-
-
-
-
-
