@@ -37,32 +37,39 @@ yarn build
 
 
 #Project Structure
-book-exchange-portal/
-├── app/                  # Next.js App Router
-│   ├── auth/             # Authentication pages
-│   ├── books/            # Book listing and management
-│   ├── dashboard/        # User dashboard
-│   ├── profile/          # Profile redirect
-│   ├── globals.css       # Global styles
-│   ├── layout.tsx        # Root layout
-│   └── page.tsx          # Home page
-├── components/           # React components
-│   ├── ui/               # UI components (shadcn/ui)
-│   ├── navbar.tsx        # Navigation bar
-│   └── theme-provider.tsx # Theme provider
-├── hooks/                # Custom React hooks
-├── lib/                  # Utility functions
-│   ├── auth.ts           # Authentication utilities
-│   ├── data.ts           # Data storage and operations
-│   ├── types.ts          # TypeScript types
-│   └── utils.ts          # Utility functions
-├── public/               # Static assets
-├── .gitignore            # Git ignore file
-├── next.config.mjs       # Next.js configuration
-├── package.json          # Project dependencies
-├── postcss.config.js     # PostCSS configuration
-├── tailwind.config.ts    # Tailwind CSS configuration
-└── tsconfig.json         # TypeScript configuration
+
+
+bookbuddy/
+├── app/                      # App Router (Next.js 14)
+│   ├── auth/                 # Login & Register Pages
+│   ├── books/                # Book listing & management pages
+│   ├── dashboard/            # User-specific dashboard
+│   ├── profile/              # Profile redirect & handler
+│   ├── globals.css           # Global CSS styles
+│   ├── layout.tsx            # Root layout with theme, metadata
+│   └── page.tsx              # Homepage (hero section, intro)
+│
+├── components/               # Reusable React components
+│   ├── ui/                   # Custom UI components (shadcn/ui)
+│   ├── navbar.tsx            # Navigation bar with links
+│   └── theme-provider.tsx    # Theme context and provider
+│
+├── hooks/                    # Custom React hooks
+│   └── useTheme.ts           # Hook for theme toggling
+│
+├── lib/                      # Utility and helper functions
+│   ├── auth.ts               # Auth role logic (demo-based)
+│   ├── data.ts               # Sample book data & logic
+│   ├── types.ts              # TypeScript types/interfaces
+│   └── utils.ts              # Utility functions
+│
+├── public/                   # Static assets (e.g. book covers)
+├── .gitignore                # Git ignored files
+├── next.config.mjs           # Next.js config file
+├── package.json              # Project metadata & dependencies
+├── postcss.config.js         # PostCSS config for Tailwind
+├── tailwind.config.ts        # Tailwind theme and settings
+└── tsconfig.json             # TypeScript compiler options
 
 
 
