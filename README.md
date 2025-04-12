@@ -4,6 +4,24 @@ BookBuddy is a web application that connects book owners with book seekers, faci
 
 Deployed Link: https://bookbuddy112.netlify.app/
 
+
+## Features
+
+- User authentication (register, login, logout)
+- Role-based access (Book Owner, Book Seeker)
+- Book listing with book cover and browsing
+- Book management for owners
+- Search and filter functionality
+- Responsive design for all devices
+
+## Tech Stack
+
+- **Frontend Framework**: Next.js 14 (App Router)
+- **UI Components**: shadcn/ui
+- **Styling**: Tailwind CSS
+- **State Management**: React Hooks
+- **Data Storage**: Local Storage (in-memory for demo purposes)
+
  Prerequisites
  ------
 - Node.js 18.x or higher
@@ -41,22 +59,6 @@ npm run build
  or
 yarn build
 
-## Features
-
-- User authentication (register, login, logout)
-- Role-based access (Book Owner, Book Seeker)
-- Book listing with book cover and browsing
-- Book management for owners
-- Search and filter functionality
-- Responsive design for all devices
-
-## Tech Stack
-
-- **Frontend Framework**: Next.js 14 (App Router)
-- **UI Components**: shadcn/ui
-- **Styling**: Tailwind CSS
-- **State Management**: React Hooks
-- **Data Storage**: Local Storage (in-memory for demo purposes)
 
 ## Notes
 
